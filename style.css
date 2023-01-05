@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/* header design */
+.head{
+    height: 80vh;
+    width: 100%;
+    background-image: url(images/donation13.jpg);
+    background-size: cover;
+    position: relative;
+}
+.head_description{
+    padding-top: 150px;
+    color: bisque;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.head_h1{
+    font-size: 70px;
+    font-weight: 700;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.head_pera{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.primary_btn{
+    background-color: red;
+    color: antiquewhite;
+    border: 0;
+    height: 30px;
+    
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* header end */
+
+/* main section donate today part */
+.donate_title{
+    text-align: center;
+    margin-top: 100px;
+}
+.donate_title h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.donate_title p{
+    font-size: 16px;
+    color: rgb(56, 54, 54);
+}
+.doante_renge{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 50px;
+}
+.donated_taka{
+    text-align: center;
+}
+.amount{
+    height: 20px;
+    width: 50px;
+    background-color: rgba(232, 232, 238, 0.89);
+    padding: 40px 10px;
+    color: darkolivegreen;
+    font-weight: bold;
+}
+.donate_taka_pera{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: rgb(220, 220, 220);
+}
+hr_resize{
+    
+    justify-content: center;
+    text-align: center;
+    height: 2px;
+}
+.donate_now{
+    
+    margin-top: 20px;
+    
+}
