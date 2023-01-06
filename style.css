@@ -215,7 +215,25 @@ img{
     height: 30px;
     width: auto;
     border: 0;
-}
-.email input{
     color: rgb(65, 63, 63);
+}
+.foot{
+    margin-top: 100px;
+    height: 25vh;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+.foot h1{
+    color: red;
+    font-family: serif;
+    
+}
+.foot p{
+    color: antiquewhite;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.last_div{
+    padding-top: 40px;
 }
