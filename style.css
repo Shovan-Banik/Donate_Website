@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+  
 }
 main{
     margin-left: 100px;
@@ -83,7 +84,7 @@ main{
     margin-bottom: 10px;
     color: rgb(220, 220, 220);
 }
-hr_resize{
+.hr_resize{
     
     justify-content: center;
     text-align: center;
@@ -93,4 +94,128 @@ hr_resize{
     
     margin-top: 20px;
     
+}
+/* donate plan design */
+.donate_description{
+    text-align: center;
+    margin-top: 100px;
+}
+.donate_description h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+
+}
+.donate_description p{
+    font-size: 16px;
+    color: slategrey;
+}
+.plan{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.plan_box1{
+    height: 150px;
+    width: 20%;
+    background-color: burlywood;
+    padding: 30px 20px;
+}
+.plan_box2{
+    height: 150px;
+    width: 20%;
+    background-color: rgb(150, 97, 137);
+    padding: 30px 20px;
+}
+.plan_box3{
+    height: 150px;
+    width: 20%;
+    background-color: rgb(83, 134, 192);
+    padding: 30px 20px;
+}
+.plan h5{
+    font-size: 20px;
+    margin: 5px 0;
+}
+/* end donate plan */
+
+/* start your donation */
+.your_donation_container{
+    display: flex;
+    gap: 50px;
+    height: 200px;
+    
+    margin-top: 150px;
+    margin-right: 100px;
+     margin-left: 100px;
+    
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.your_donation_image{
+   
+    height: 450px;
+    width: 400px;
+
+}
+.your_donation_description{
+     
+     justify-content: space-around;
+     margin-top: 50px;
+     text-align: left;
+     font-size: 30px;
+     /* margin-right: 100px;
+     margin-left: 100px; */
+     margin-bottom: 5px;
+     
+}
+.contribute{
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+}
+.your_donation_pera{
+    text-align: left;
+    margin: 10px 0;
+    color: darkgrey;
+    font-size: 16px;
+   
+}
+.your_need_image{
+    height:500px;
+    width: 500px;
+    }
+    /* last section start */
+.last_section_description{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    }
+.last_section_description h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.last_section_description p{
+    font-size: 18px;
+    color: dimgrey;
+}
+.very_last_part{
+    height: 100px;
+    width: 650px;
+    background-color: rgb(250, 248, 128);
+    justify-content: center;
+    text-align: center;
+    margin-left: 250px;
+}
+.form_handle{
+    padding: 45px;
+}
+.form_handle input{
+    height: 30px;
+    width: auto;
+    border: 0;
+}
+.email input{
+    color: rgb(65, 63, 63);
 }
